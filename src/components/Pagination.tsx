@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useEffect } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import styles from "./Pagination.module.css";
+import styles from "../assets/css/Pagination.module.css";
 
 interface props {
     total: number;

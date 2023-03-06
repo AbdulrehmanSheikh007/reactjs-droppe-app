@@ -1,6 +1,6 @@
 import * as React from "react";
 import { FaStar } from "react-icons/fa";
-import styles from "./Product.module.css";
+import styles from "../assets/css/Product.module.css";
 
 interface props {
   product: any,

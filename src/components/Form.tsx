@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Button } from "./Button";
-import styles from "./Form.module.css";
+import styles from "../assets/css/Form.module.css";
 
 type IFormProps = {
   "onSubmit": (payload: { title: string; description: string; price: string }) => void;

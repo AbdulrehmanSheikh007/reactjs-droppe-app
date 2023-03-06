@@ -6,7 +6,7 @@ import { Form } from "./components/Form";
 import logo from "./images/droppe-logo.png";
 import img1 from "./images/img1.png";
 import img2 from "./images/img2.png";
-import styles from "./ShopApp.module.css";
+import styles from "../src/assets/css/ShopApp.module.css";
 import { useEffect, useState } from 'react';
 import React from 'react';
 import { addProduct, getProducts } from './services/ProductService';
