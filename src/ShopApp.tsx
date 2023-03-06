@@ -10,7 +10,7 @@ import styles from "../src/assets/css/ShopApp.module.css";
 import { useEffect, useState } from 'react';
 import React from 'react';
 import { addProduct, getProducts } from './services/ProductService';
-import Product from './components/Product';
+import Product from './views/Product';
 import { Pagination } from './components/Pagination';
 
 interface ProductInterface {
